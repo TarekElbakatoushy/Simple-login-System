@@ -3,7 +3,7 @@ let text = document.getElementById("text");
 let userName = localStorage.getItem("username");
 
 logout.addEventListener("click", function () {
-  window.location.assign("../../JavaScript/ASSIGN-3-LOGIN-PAGE/Login.html");
+  window.location.assign("../../JavaScript/ASSIGN-3-LOGIN-PAGE/index.html");
   localStorage.removeItem("username");
 });
 
