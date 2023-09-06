@@ -4,9 +4,9 @@ let Emailinput = document.getElementById("Email");
 let Passinput = document.getElementById("Pass");
 let userContainer = JSON.parse(localStorage.getItem("Users")) || [];
 
-regBtn.addEventListener("click", function () {
-  window.location.assign("../Reg.html");
-});
+// regBtn.addEventListener("click", function () {
+//   window.location.assign("../Reg.html");
+// });
 
 loginBtn.addEventListener("click", function () {
   for (let i = 0; i < userContainer.length; i++) {
