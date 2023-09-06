@@ -10,7 +10,7 @@ let userContainer = [];
 userContainer = JSON.parse(localStorage.getItem("Users")) || [];
 
 signbtn.addEventListener("click", function () {
-  window.location.assign("../../JavaScript/ASSIGN-3-LOGIN-PAGE/index.html");
+  window.location.assign("../index.html");
 });
 
 regBtn.addEventListener("click", function () {
@@ -29,7 +29,7 @@ regBtn.addEventListener("click", function () {
     clear();
     Emailinput.classList.remove("is-valid");
     setTimeout(function () {
-      window.location.assign("../../JavaScript/ASSIGN-3-LOGIN-PAGE/index.html");
+      window.location.assign("../index.html");
     }, 2000);
   }
 });
