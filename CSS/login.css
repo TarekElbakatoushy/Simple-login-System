@@ -1,0 +1,31 @@
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
+footer {
+  background-color: #0b5ed7;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+}
+section {
+  height: calc(100vh - 64px);
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
